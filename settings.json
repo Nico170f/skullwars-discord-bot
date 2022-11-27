@@ -1,0 +1,162 @@
+{
+    "General": {
+        "Prefix": ".",
+        "Key": "",
+        "PermissionBypass": ["212878816362758144", "3010486450575114255"],
+        "TagBlockIDs": ["212878816362758144", "208212074688544768", "540595082609295410"],
+        "DiscordLinksAllowed": [""],
+
+        "Servers": {
+            "Public": "569218374123520031",
+            "Staff": "566907577238028288",
+            "Leaders": "546747004311830548",
+            "Mentor": ""
+        },
+
+        "Theme": {
+            "main": "#e1ac00",
+            "green": "#27ae60",
+            "red": "#CD3A39",
+            "orange": "#db9603",
+            "blue": "#2d9be0",
+            "blank": "2f3136",
+            "boost": "#f47fff"
+        },
+
+        "Zanak":{
+            "CurrentMap": "Zanak Map #2",
+            "example": "Mar 4, 2021 15:00:00",
+            "date": "Mar 4, 2022 15:00:00"
+        }
+    },
+
+    "Support":{
+        "SetupMode": false,
+        "TicketChannelID": "806851013717786664",
+        "TicketMessageID": "811657731844997120"
+    },
+
+    "Channels":{
+        "Suggestions": "828021278945574973",
+        "AcceptedSuggestions": "828014527550324786",
+        "TicketLogs": "615823590725648394",
+        "ModLogs": "569219723762335754",
+        "StaffMovement": "823156550881378314",
+        "MemberLog": "576026809267650560",
+        "Warnings": "826567990698704926",
+        "Welcome": "569219717559222307"
+    },
+
+    "Categories":{
+        "Factions": "615820502249897990",
+        "Buycraft": "807390406719438880",
+        "Appeal": "811652918411132971",
+        "Bug": "811653020076867646",
+        "Archive": "868865177091735563",
+
+        "PlayingZanak": "885512053266198528"
+    },
+    
+    "Roles":{
+        "Muted": "577917942541320223",
+        "Support": "808847439565684767",
+        "Member": "885254708510466048",
+        "Booster": "872183851781353492",
+        "PublicFactionLeader": "871461657371611167",
+        
+        "FLeaderStaff": "885512308040814602",
+        "FLeaderLeader": "885512461871120404",
+        "FLeaderZanak": "885512381915095060",
+
+        "Helper": "823153848449105920",
+        "Mod": "823153844380893204",
+        "SrMod": "823153711257747466",
+        "JrAdmin": "823154190565638157",
+        "Admin": "823154193132683345",
+        "SrAdmin": "823154195128909854",
+        "Manager": "823154334233526302",
+        "Operator": "823154380013961257",
+        "Management": "823330132793098281",
+        "Administration": "823330185045999636"
+    },
+
+    "Points":{
+        "ban": 50,
+        "mute": 20,
+        "kick": 20,
+        "ticketClose": 50,
+        "message": 1,
+        "ticketMessage": 10,
+
+        "voiceCallActivity": {
+            "timer": "*/2 * * * * *",
+            "points": 2,
+            "minumumInChannel": 2,
+            "ignoreChannelID": ["814599826146328638", "814599826146328638"]
+          }
+    },
+
+    "FactionSignup":{
+        "FactionsChannel": "871458933376708678",
+        "FactionsMessage": "875108082382962788",
+        "ReleaseCountdown": "",
+        "DiscordInvite": "https://discord.gg/n5FHmcbqTA",
+        "DisplayGif": "https://i.gyazo.com/3e7bf5883c4873311fdac22d025bbc52.gif"
+    },
+
+    "ServerBoosting":{
+        "Rewards": "If you boost our server you’ll be rewarded with a kit and perks on the in-game server. If you're boosting, use `.boost claim` and our bot will send you a code which you can redeem in-game for a full Booster kit and a wilderness fly voucher!",
+        "RewardsGif": "https://gyazo.com/8721e24eed48b9aa1cebcfa3a3b7522a"
+    },
+
+
+    "GuildBotting":{
+
+        "BotJoins":{
+            "timer": "60s",
+            "limit": 10
+        },
+
+        "BotSpam":{
+            "timer": "5s",
+            "messageLimit": 5,
+            "TagsInMessage": 2,
+        
+            "instaTimer": "5s",
+            "instaMessageLimit": 2,
+            "instaTagsInMessage": 3
+        }
+    },
+
+    "Database":{
+        "MongoDB":{
+            "ConnectionString": "mongodb://localhost:27017/test"
+        },
+
+        "MySQL":{
+            "host": "localhost",
+            "user": "pjeve",
+            "password": "12345",
+            "database": "skullwars",
+
+            "FactionTable": "signup",
+            "BoostTable": "boost",
+            "FTopTable": "facs"
+        }
+    },
+
+    "RCon": {
+        "hub": {
+          "enabled": false,
+          "host": "46.4.58.8",
+          "port": "11",
+          "pass": "Neger"
+        },
+        "proxy": {
+          "enabled": false,
+          "host": "46.4.58.8",
+          "port": "11",
+          "pass": "Neger"
+        }
+      }
+}
