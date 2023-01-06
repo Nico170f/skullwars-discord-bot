@@ -135,9 +135,9 @@
 
         "MySQL":{
             "host": "localhost",
-            "user": "pjeve",
-            "password": "12345",
-            "database": "skullwars",
+            "user": "x",
+            "password": "x",
+            "database": "x",
 
             "FactionTable": "signup",
             "BoostTable": "boost",
@@ -148,15 +148,15 @@
     "RCon": {
         "hub": {
           "enabled": false,
-          "host": "46.4.58.8",
+          "host": "host",
           "port": "11",
-          "pass": "Neger"
+          "pass": "pass"
         },
         "proxy": {
           "enabled": false,
-          "host": "46.4.58.8",
+          "host": "host",
           "port": "11",
-          "pass": "Neger"
+          "pass": "pass"
         }
       }
 }
